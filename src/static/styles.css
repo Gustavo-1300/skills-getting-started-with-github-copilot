@@ -109,6 +109,28 @@ section h3 {
   color: #333;
 }
 
+.participant-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 auto;
+}
+
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 20px;
+  line-height: 1;
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background: rgba(198,40,40,0.08);
+}
+
 /* Small circular avatar with initials */
 .participant-avatar {
   width: 34px;
